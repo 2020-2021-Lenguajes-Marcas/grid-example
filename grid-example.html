@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body {
+			display: grid;
+			grid-template-areas: 
+			 'blue blue'
+			 'red organe'
+			 'red gray'
+			 'white white'
+		}
+		.blue {
+			grid-area: blue;
+			background-color: blue;
+		}
+		.red {
+			grid-area: red;
+			background-color: red;	
+		}
+		.organe {
+			grid-area: organe;
+			background-color: orange;
+		}
+
+		.gray {
+			grid-area: gray;
+			background-color: gray;
+		}
+
+		.white {
+			grid-area: white;
+			background-color: lightgray;
+		}
+	</style>
+</head>
+<body>
+	<div class="blue"><p>blue</p></div>
+	<div class="red"><p>red</p></div>
+	<div class="gray"><p>gray</p></div>
+	<div class="organe"><p>orange</p></div>
+	<div class="white"><p>white</p></div>
+</body>
+</html>
